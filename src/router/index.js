@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import test from '@/components/test'
 import svg from '@/components/svg'
+import coffee from '@/components/coffee'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/svg',
       name: 'svg',
       component: svg
+    },
+    {
+      path: '/coffee',
+      name: 'coffee',
+      component: coffee
     }
   ]
 })

@@ -30,7 +30,7 @@
         <p class="deco">Leve fit, quod bene fertur, onus.</p>
       </div>
       <section class="content content--layout">
-        <h2 class="word word--magneto">Kabinka</h2>
+        <h2 class="word word--magneto">Kabinka &amp; hi</h2>
       </section>
     </main>
     </body>
