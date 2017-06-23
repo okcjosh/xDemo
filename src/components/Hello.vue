@@ -48,6 +48,14 @@
       </section>
     </main>
     </body>
+    <svg class="heart-loader" viewBox="0 0 190 190">
+      <g class="heart-loader__group">
+        <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
+        <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+        <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+        <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
+      </g>
+    </svg>
   </div>
 </template>
 
@@ -223,6 +231,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  @import '../assets/css/heart.css';
   @import '../assets/fancy/css/normalize.css';
   @import '../assets/fancy/css/kidnap.css';
   @import '../assets/fancy/css/magneto.css';
